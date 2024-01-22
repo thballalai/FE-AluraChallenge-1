@@ -1,0 +1,56 @@
+@import url(./header.css);
+
+:root {
+    --cor-1: #051D3B;
+    --cor-2: #5081FB;
+    --cor-3: #7BA4FC;
+    --cor-4: #96B9FD;
+    --cor-5: #ffffff;
+
+    --menu-background-color: #2D415B;
+
+    --title-font-family: "Inter";
+    --title-font-size: 1.3125rem;
+    --title-font-weigth: 700;
+    --title-line-heigth: 150%;
+
+    --body-font-family: "Inter";
+    --body-font-size: 1rem;
+    --body-font-weigth: 400;
+    --body-line-heigth: 150%;
+
+    --sidebar-font-family: "Inter";
+    --sidebar-font-size: 0.75rem;
+    --sidebar-font-weigth: 400;
+    --sidebar-line-heigth: 150%;
+
+    --shadow-border-radius: 16px;
+    --shadow-x: 0;
+    --shadow-y: 16;
+
+    --form-input-normal-color: var(--cor-5);
+    --form-input-hover-color: var(--cor-5);
+
+    --form-select-normal-color: var(--cor-5);
+    --form-select-hover-color: var(--cor-5);
+
+    --button-filled-normal-color: var(--cor-2);
+    --button-filled-hover-color: var(--cor-3);
+    --button-filled-pressed-color: var(--cor-2);
+    --button-filled-pressed-border-color: var(--cor-2);
+    --button-filled-focus-color: var(--cor-4);
+        
+    --button-outlined-color: var(--cor-2);
+
+    --button-icon-color: var(--cor-2);
+
+    --button-menu-normal-color: var(--cor-2);
+    --button-menu-normal-font-color: var(--cor-5);
+    --button-menu-hover-color: var(--cor-2);
+    --button-menu-normal-color: var(--cor-2);
+}
+
+body {
+    background-color: var(--cor-1);
+    font-family: var(--body-font-family);
+}
